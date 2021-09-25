@@ -17,7 +17,7 @@ import javax.persistence.Table;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-//@Data não recomendado por perda severa de performance
+//@Data para JPA não recomendado por perda severa de performance
 @Getter
 @Setter
 @ToString
